@@ -1,0 +1,138 @@
+/* styles.css */
+body {
+  padding: 0;
+  background-color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.icons {
+  border-radius: 10px;
+}
+
+.projects {
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header img {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.icon-text img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.icon-text span {
+  font-size: 16px;
+}
+
+.bio {
+  height: 400px;
+  width: 100%;
+
+  border-radius: 2px 2px 2px 2px;
+  background-color: white;
+  color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.lines {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-size: 100px;
+}
+h2 {
+  font-size: 25px;
+  margin: 0;
+}
+h3 {
+  font-size: 15px;
+  margin: 0;
+}
+
+.description {
+  width: 100%;
+
+  background-color: blanchedalmond;
+
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+.profilepic {
+  height: 335px;
+  width: 250px;
+  margin: 25px;
+  border: 2px black solid;
+  color: black;
+  text-align: center;
+
+  border-radius: 8px;
+}
+
+.header {
+  background-color: rgb(199, 199, 199);
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  width: 40%;
+  margin: 25px;
+  padding: 20px;
+  border: 1px black solid;
+  color: black;
+  box-shadow: 4px 4px rgba(148, 155, 167, 0.8);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background-color: rgba(235, 235, 235, 0.1);
+}
+
+.img2 {
+  height: 200px;
+  border-radius: 5px;
+}
