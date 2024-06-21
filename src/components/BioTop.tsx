@@ -9,7 +9,8 @@ const BioTop: React.FC = () => {
         <div className="lines">
           <h1>JAMES DAYKIN</h1>
           <h2>
-            Fullstack software developer specialising in Node development.{" "}
+            Fullstack software developer specialising in Node development.npm
+            install typescript@4.9.5
             <br />
             <br />
           </h2>
