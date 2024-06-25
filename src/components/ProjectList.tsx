@@ -24,7 +24,7 @@ const ProjectList: React.FC = () => {
           image={MovieZone}
           title="Movie Zone React App"
           description="React App that pulls and displays information from an Express application I have developed and host on Vercel"
-          imageLink="https://wildlife-9gkctm284-james-daykins-projects.vercel.app/"
+          imageLink="https://wildlife-chi.vercel.app/"
           imageAlt="Endangered Species App Screenshot"
         />
         <Project
