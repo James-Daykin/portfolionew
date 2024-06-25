@@ -3,6 +3,7 @@ import Project from "./Project";
 
 import ApartmentImage from "./../assets/apartmentImage.png";
 import EndangeredSpecies from "./../assets/endangeredSpecies.png";
+import MovieZone from "./../assets/movieZone.png";
 import MusicPlayer from "./../assets/musicPlayer.png";
 
 const ProjectList: React.FC = () => {
@@ -20,8 +21,8 @@ const ProjectList: React.FC = () => {
       </div>
       <div className="projects">
         <Project
-          image={EndangeredSpecies}
-          title="Endangered Species React App"
+          image={MovieZone}
+          title="Movie Zone React App"
           description="React App that pulls and displays information from an Express application I have developed and host on Vercel"
           imageLink="https://wildlife-9gkctm284-james-daykins-projects.vercel.app/"
           imageAlt="Endangered Species App Screenshot"
