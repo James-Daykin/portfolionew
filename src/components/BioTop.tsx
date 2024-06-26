@@ -10,8 +10,10 @@ const BioTop: React.FC = () => {
           <h1>JAMES DAYKIN</h1>
           <h2>
             Fullstack software developer specialising in Node developments
-            <br />
-            <br />
+            <div className="conditional-content">
+              <br />
+              <br />
+            </div>
           </h2>
         </div>
         <div>
