@@ -9,7 +9,7 @@ interface IconTextProps {
 const IconText: React.FC<IconTextProps> = ({ imageSrc, altText, text }) => {
   return (
     <div className="icon-text">
-      <img src={imageSrc} alt={altText} />
+      <img className="stack-icon" src={imageSrc} alt={altText} />
       <span>{text}</span>
     </div>
   );

@@ -20,6 +20,7 @@ const AboutMe: React.FunctionComponent = () => {
           backgroundColor: "blanchedalmond",
           borderRadius: "20px",
           margin: "20px",
+          textAlign: "center",
         }}
       >
         I am a full stack developer currently working for Dedalus, the largest

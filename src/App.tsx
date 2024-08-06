@@ -4,6 +4,7 @@ import "./styles.css";
 import BioTop from "./components/BioTop";
 import ProjectList from "./components/ProjectList";
 import AboutMe from "./components/AboutMe";
+import Technologies from "./components/Technologies";
 
 const App: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const App: React.FC = () => {
       <Header />
       <BioTop />
       <AboutMe />
+      <Technologies />
       <ProjectList />
     </div>
   );
